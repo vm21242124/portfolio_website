@@ -1,0 +1,50 @@
+.Navbar{
+    height: 25vh;
+    position:sticky;
+    background-color: rgb(221, 247, 255);
+    display: flex;
+    align-items:  center;
+    justify-content:space-between;
+}
+.left{
+
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.navoptions{
+    font-weight: 500;
+}
+.navoptions:hover{
+    
+    cursor: pointer;
+    color: rgb(84, 84, 84);
+}
+
+.right{
+    display: flex;
+    width: 30%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.socialsite{
+    color: rgb(80, 203, 255);
+    margin-right: 8px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.callnow{
+    background-color: transparent;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding: 5px;
+    border-radius: 8px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.callnow:hover{
+    background-color: red;
+    color: #fff;
+    
+}
